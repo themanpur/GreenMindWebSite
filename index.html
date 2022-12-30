@@ -1,0 +1,513 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Green Mind</title>
+      
+        <link rel="stylesheet" href="css/style.css" />
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+      
+        <!-- Font Awesome -->
+        <script src="https://kit.fontawesome.com/14273d579a.js" crossorigin="anonymous"></script>
+      </head>
+  <body>
+    <header>
+        <nav class="navbar navbar-expand-md navbar-light bg-light fixed-top">
+            <div class="container-fluid">
+                <a class="navbar-brand text-uppercase fw-bold active text-primary" aria-current="page" href="/index.html">
+                  <img src="img/logo-green-mind.png" alt="Logo" style="height: 4.1rem"> Accueil
+                </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+              </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+                    <div class="navbar-nav text-uppercase fw-bold">
+                        <li class="nav-item dropdown">
+                          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            A Propos
+                          </a>
+                          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#">Mission</a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item" href="#">Vision</a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item" href="#">Objectifs</a></li>
+                          </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Nos Secteurs
+                          </a>
+                          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#">Santé</a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item" href="#">Nutrition</a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item" href="#">Sécurité Alimentaire</a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item" href="#">Education</a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item" href="#">Environnement</a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item" href="#">WASH</a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item" href="#">Protection</a></li>
+                          </ul>
+                        </li>
+                        <a class="nav-link " href="#">Document</a>
+                        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Contact</a>
+                    </div>
+               </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="my-5" id="carousel">
+          <div class="container-fluid bg-white">
+            <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+              </div>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                 <img src="https://picsum.photos/1920/1080?random=3" class="d-block w-100" alt="...">
+                  <div class="carousel-caption d-none d-md-block">
+                    <h1>First slide label</h1>
+                    <p>Some representative placeholder content for the first slide.</p>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <img src="https://picsum.photos/1920/1080?random=2" class="d-block w-100" alt="...">
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5>Second slide label</h5>
+                    <p>Some representative placeholder content for the second slide.</p>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <img src="https://picsum.photos/1920/1080?random=1" class="d-block w-100" alt="...">
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5>Third slide label</h5>
+                    <p>Some representative placeholder content for the third slide.</p>
+                  </div>
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </div>
+        </section>
+
+        <section class="my-5 bg-light" id="aboutUs">
+          <div class="container p-3">
+            <div class="row align-items-center gy-4">
+              <div class="col-12 col-md-6"><img src="img/about-us.jpeg" class="w-100 rounded"></div> 
+              <div class="col-12 col-md-6 text-wrapper">
+                <h2 class="text-uppercase fw-bold fs-2">A Propos de Nous</h2>
+                <p class="fs-4">
+                  <strong>GREEN MIND</strong> est conscient que notre force 
+                  réside non pas dans les mots, mais à travers les actions que nous 
+                  réalisons et les initiatives que nous soutenons ainsi donc sa devise est 
+                  <strong>Our Future, Our Actions.</strong>
+                </p>
+
+                  <p class="fs-4"><strong>Née en 2018</strong> de la volonté des jeunes pluridisciplinaires volontaires et amoureux de l'action 
+                  humanitaire, Green Mind est une association à caractère environnementale à but non lucratif Camerounaise et à 
+                  vocation internationale, qui a pour mission principale d’aider les Etats en général dans l’amélioration durable 
+                  des conditions de vie et à la réduction de la pauvreté des communautés à travers le développement et le transfert 
+                  des connaissances scientifiques et techniques sur la base des <strong>Objectifs de Développement Durable (ODD).</strong>
+                </p>
+
+                  <p class="fs-4">La stratégie au centre des actions de <strong>GREEN MIND</strong>GREEN MIND est de Planifier et impliquer la communauté locale, la priorité est d'obtenir 
+                  des résultats positifs, et nous savons qu'ils dépendent de la qualité de nos campagnes et de nos partenariats. Nous soutenons le 
+                  développement de solutions intégrées et investissons dans la transmission d'outils fiables pour ceux qui en ont le plus besoin.
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="my-5 bg-white" id="nosSecteurs">
+          <div class="container">
+            <div class="row gy-4">
+  
+              <h2 class="text-uppercase fw-bold fs-2">Nos Services</h2>
+              <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                <div class="card">
+                  <img src="img/sante.jpg" class="card-img-top w-100" alt="..." style="height: 200px;">
+                  <div class="card-body">
+                    <h5 class="card-title text-uppercase fs-5">Santé</h5>
+                    <p class="card-text">En situation de crise nous intervenons pour porter secours aux personnes affectées et préserver les conditions socio-sanitaires des plus vulnérables</p>
+                    <a href="#" class="btn btn-primary">Read more ></a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                <div class="card">
+                  <img src="img/nutrition.jpg" class="card-img-top w-100" alt="..." style="height: 200px;">
+                  <div class="card-body">
+                    <h5 class="card-title text-uppercase fs-5">Nutrition</h5>
+                    <p class="card-text">Le fléau Malnutrition a fait siège dans notre société face l’incapacité de l’auto-suffisance alimentaire de nos pays</p>
+                    <a href="#" class="btn btn-primary">Read more ></a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                <div class="card">
+                  <img src="img/securite-alim.jpg" class="card-img-top w-100" alt="..." style="height: 200px;">
+                  <div class="card-body">
+                    <h5 class="card-title text-uppercase fs-5">Sécurité Alimentaire</h5>
+                    <p class="card-text">L’Afrique aujourd’hui est enfreint à des situations récurrentes de famine entretenues par de nombreuses crises politico-sécuritaires</p>
+                    <a href="#" class="btn btn-primary">Read more ></a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                <div class="card">
+                  <img src="IMG/education.jpg" class="card-img-top w-100" alt="..." style="height: 200px;">
+                  <div class="card-body">
+                    <h5 class="card-title text-uppercase fs-5">Education</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class="btn btn-primary">Read more ></a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                <div class="card">
+                  <img src="img/environement.jpg" class="card-img-top w-100" alt="..." style="height: 200px;">
+                  <div class="card-body">
+                    <h5 class="card-title text-uppercase fs-5">Environnement</h5>
+                    <p class="card-text">Avec un taux global de scolarisation très inférieur au standard international, nombres de populations africaines continuent d’être privés</p>
+                    <a href="#" class="btn btn-primary">Read more ></a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                <div class="card">
+                  <img src="img/wach.png" class="card-img-top w-100" alt="..." style="height: 200px;">
+                  <div class="card-body">
+                    <h5 class="card-title text-uppercase fs-5">WASH</h5>
+                    <p class="card-text">Le changement climatique modifie l’équilibre thermique de la Terre et a de nombreuses conséquences sur l’homme et l’environnement.</p>
+                    <a href="#" class="btn btn-primary">Read more ></a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                <div class="card">
+                  <img src="img/protection.jpg" class="card-img-top w-100" alt="..." style="height: 200px;">
+                  <div class="card-body">
+                    <h5 class="card-title text-uppercase fs-5">Protection</h5>
+                    <p class="card-text">Des crises auxquelles sont confrontées nos peuples d’ici et d’ailleurs laissent de nombreuses familles en cabale et sans abris</p>
+                    <a href="#" class="btn btn-primary">Read more ></a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                <div class="card">
+                  <img src="https://picsum.photos/1920/1080?random=8" class="card-img-top w-100" alt="..." style="height: 200px;">
+                  <div class="card-body">
+                    <h5 class="card-title text-uppercase fs-5">Santé</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class="btn btn-primary">Read more ></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="my-5 bg-light" id="galerie">
+          <div class="container p-3">
+            <div class="row align-items-center gy-4">
+              <h2 class="text-uppercase fw-bold fs-2">Galerie</h2>
+              
+              <div class="col-12 col-sm-3 col-md-2">
+                  <div class="container position-relative shadow">
+                    <img src="https://picsum.photos/1920/1080?random=1" class="img-thumbnail w-100">
+                      <!--p class="position-absolute top-50 start-50 translate-middle text-center bg-light">Caption Here</p-->
+                  </div>
+              </div> 
+
+              <div class="col-12 col-sm-3 col-md-2">
+                  <div class="container position-relative shadow">
+                    <img src="https://picsum.photos/1920/1080?random=2" class="img-thumbnail w-100">
+                      <!--p class="position-absolute top-50 start-50 translate-middle text-center w-100 fs-5">Caption Here</p-->
+                  </div>
+              </div> 
+
+              <div class="col-12 col-sm-3 col-md-2">
+                <div class="container position-relative shadow">
+                  <img src="https://picsum.photos/1920/1080?random=3" class="img-thumbnail w-100">
+                    <!--p class="position-absolute top-50 start-50 translate-middle text-center">Caption Here</p-->
+                </div>
+              </div> 
+
+              <div class="col-12 col-sm-3 col-md-2">
+                  <div class="container position-relative shadow">
+                    <img src="https://picsum.photos/1920/1080?random=4" class="img-thumbnail w-100">
+                      <!--p class="position-absolute top-50 start-50 translate-middle text-center">Caption Here</p-->
+                  </div>
+              </div> 
+
+              <div class="col-12 col-sm-3 col-md-2">
+                <div class="container position-relative shadow">
+                  <img src="https://picsum.photos/1920/1080?random=5" class="img-thumbnail w-100">
+                    <!--p class="position-absolute top-50 start-50 translate-middle text-center">Caption Here</p-->
+                </div>
+              </div> 
+
+              <div class="col-12 col-sm-3 col-md-2">
+                  <div class="container position-relative shadow">
+                    <img src="https://picsum.photos/1920/1080?random=6" class="img-thumbnail w-100">
+                      <!--p class="position-absolute top-50 start-50 translate-middle text-center">Caption Here</p-->
+                  </div>
+              </div> 
+              <div class="col-12 col-sm-3 col-md-2">
+                <div class="container position-relative shadow">
+                  <img src="https://picsum.photos/1920/1080?random=7" class="img-thumbnail w-100">
+                    <!--p class="position-absolute top-50 start-50 translate-middle text-center">Caption Here</p-->
+                </div>
+              </div> 
+
+              <div class="col-12 col-sm-3 col-md-2">
+                  <div class="container position-relative shadow">
+                    <img src="https://picsum.photos/1920/1080?random=8" class="img-thumbnail w-100">
+                      <!--p class="position-absolute top-50 start-50 translate-middle text-center">Caption Here</p-->
+                  </div>
+              </div>
+              <div class="col-12 col-sm-3 col-md-2">
+                <div class="container position-relative shadow">
+                  <img src="https://picsum.photos/1920/1080?random=9" class="img-thumbnail w-100">
+                    <!--p class="position-absolute top-50 start-50 translate-middle text-center">Caption Here</p-->
+                </div>
+              </div> 
+
+              <div class="col-12 col-sm-3 col-md-2">
+                  <div class="container position-relative shadow">
+                    <img src="https://picsum.photos/1920/1080?random=10" class="img-thumbnail w-100">
+                      <!--p class="position-absolute top-50 start-50 translate-middle text-center">Caption Here</p-->
+                  </div>
+              </div>
+              <div class="col-12 col-sm-3 col-md-2">
+                <div class="container position-relative shadow">
+                  <img src="https://picsum.photos/1920/1080?random=11" class="img-thumbnail w-100">
+                    <!--p class="position-absolute top-50 start-50 translate-middle text-center">Caption Here</p-->
+                </div>
+              </div> 
+
+              <div class="col-12 col-sm-3 col-md-2">
+                <div class="container text-center">
+                  <a data-bs-toggle="offcanvas" data-bs-target="#offcanvasBottom" aria-controls="offcanvasBottom">voir plus</a>
+
+                  <div class="offcanvas offcanvas-bottom h-100" tabindex="-1" id="offcanvasBottom" aria-labelledby="offcanvasBottomLabel">
+                    <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasBottomLabel">Projet 1</h5>
+                      <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                        ...
+                    </div>
+                  </div>
+                </div>
+            </div>
+   
+            </div>
+          </div>
+        </section>
+
+        <section class="my-5 bg-white" id="document">
+          <div class="container p-3">
+            <div class="row align-items-center gy-4">
+              <h2 class="text-uppercase fw-bold fs-2">Documents</h2>
+              
+              <div class="col-6 col-sm-3 col-md-2">
+                    <a class="navbar-brand" href="docs/influence-et-manipulation_113856.pdf">
+                      <div class="row">
+                        <div class="col-2"><img src="img/pdf.png" style="height: 2.1rem"></div>
+                        <div class="col-9 offset-1"><h5 class="text-uppercase text-dark fs-6 text-wrap">Rapport blabla</h5></div>
+                      </div>
+                    </a>
+              </div> 
+              <div class="col-6 col-sm-3 col-md-2">
+                <a class="navbar-brand" href="docs/influence-et-manipulation_113856.pdf">
+                  <div class="row">
+                    <div class="col-2"><img src="img/pdf.png" style="height: 2.1rem"></div>
+                    <div class="col-9 offset-1"><h5 class="text-uppercase text-dark fs-6 text-wrap">Rapport blabla</h5></div>
+                  </div>
+                </a>
+              </div>
+              <div class="col-6 col-sm-3 col-md-2">
+                <a class="navbar-brand" href="docs/influence-et-manipulation_113856.pdf">
+                  <div class="row">
+                    <div class="col-2"><img src="img/pdf.png" style="height: 2.1rem"></div>
+                    <div class="col-9 offset-1"><h5 class="text-uppercase text-dark fs-6 text-wrap">Rapport blabla</h5></div>
+                  </div>
+                </a>
+              </div> 
+              <div class="col-6 col-sm-3 col-md-2">
+                <a class="navbar-brand" href="docs/influence-et-manipulation_113856.pdf">
+                  <div class="row">
+                    <div class="col-2"><img src="img/pdf.png" style="height: 2.1rem"></div>
+                    <div class="col-9 offset-1"><h5 class="text-uppercase text-dark fs-6 text-wrap">Rapport blabla</h5></div>
+                  </div>
+                </a>
+              </div> 
+              <div class="col-6 col-sm-3 col-md-2">
+                <a class="navbar-brand" href="docs/influence-et-manipulation_113856.pdf">
+                  <div class="row">
+                    <div class="col-2"><img src="img/pdf.png" style="height: 2.1rem"></div>
+                    <div class="col-9 offset-1"><h5 class="text-uppercase text-dark fs-6 text-wrap">Rapport blabla</h5></div>
+                  </div>
+                </a>
+              </div>
+              <div class="col-6 col-sm-3 col-md-2">
+                <a class="navbar-brand" href="docs/influence-et-manipulation_113856.pdf">
+                  <div class="row">
+                    <div class="col-2"><img src="img/pdf.png" style="height: 2.1rem"></div>
+                    <div class="col-9 offset-1"><h5 class="text-uppercase text-dark fs-6 text-wrap">Rapport blabla</h5></div>
+                  </div>
+                </a>
+              </div> 
+              <div class="col-6 col-sm-3 col-md-2">
+                <a class="navbar-brand" href="docs/influence-et-manipulation_113856.pdf">
+                  <div class="row">
+                    <div class="col-2"><img src="img/pdf.png" style="height: 2.1rem"></div>
+                    <div class="col-9 offset-1"><h5 class="text-uppercase text-dark fs-6 text-wrap">Rapport blabla</h5></div>
+                  </div>
+                </a>
+              </div> 
+              <div class="col-6 col-sm-3 col-md-2">
+                <a class="navbar-brand" href="docs/influence-et-manipulation_113856.pdf">
+                  <div class="row">
+                    <div class="col-2"><img src="img/pdf.png" style="height: 2.1rem"></div>
+                    <div class="col-9 offset-1"><h5 class="text-uppercase text-dark fs-6 text-wrap">Rapport a la blabla</h5></div>
+                  </div>
+                </a>
+              </div>
+              <div class="col-6 col-sm-3 col-md-2">
+                  <div class="container align-items-center">
+                    <div class=" text-start">
+                      <a data-bs-toggle="offcanvas" data-bs-target="#offcanvasBottom" aria-controls="offcanvasBottom">voir plus</a>
+
+                    <div class="offcanvas offcanvas-bottom h-100" tabindex="-1" id="offcanvasBottom" aria-labelledby="offcanvasBottomLabel">
+                      <div class="offcanvas-header">
+                      <h5 class="offcanvas-title" id="offcanvasBottomLabel">Projet 1</h5>
+                        <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                      </div>
+                      <div class="offcanvas-body">
+                          ...
+                      </div>
+                    </div>
+                    </div>
+                  </div>
+              </div> 
+   
+            </div>
+          </div>
+        </section>
+
+        <section class="my-5 py-5 px-180 bg-light" id="document">
+          <div class="container">
+            <div class="row py-5 px-5 mx-10 align-items-center shadow-lg">
+              <h2 class="text-uppercase fw-bold fs-2">Contactez Nous</h2>
+                <div class="col-12 col-md-5 justify-content-center">
+                  <div class="my-1">
+                    <a href="#" class="text-decoration-none text-primary text-center fw-bold" data-bs-toggle="tooltip">
+                      <div class="py-2">
+                        <i class="fa fa-phone fa-4x"></i>
+                      </div>
+                      <div class="py-2">
+                        <h2 class="text-dark fs-2 text-uppercase">phone</h2>
+                        <p>+237 691 070 396</p>
+                      </div>
+                    </a>
+                  </div>
+                  <div class="my-1">
+                    <a href="#" class="text-decoration-none text-primary text-center fw-bold" data-bs-toggle="tooltip">
+                    <div class="py-2">
+                      <i class="fa fa-envelope fa-4x"></i>
+                    </div>
+                    <div class="py-2">
+                      <h2 class="text-dark fs-2 text-uppercase">email</h2>
+                      <p>greenmindofoa@gmail.com</p> 
+                    </div>
+                    </a>
+                  </div>
+                </div>
+                <div class="col-12 col-md-7 border-start px-5">
+                  <form>
+                    <div class="mb-3">
+                      <h2 class="fw-bold fs-4">Laissez Nous Un Message</h2>
+                      <div class="row">
+                        <div class="col-12 col-md-6">
+                          <label for="subName" class="form-label">Noms</label>
+                          <input type="text" class="form-control" id="subName" aria-describedby="emailHelp">
+                        </div>
+                        <div class="col-12 col-md-6">
+                          <label for="inputEmail1" class="form-label">Email address</label>
+                          <input type="email" class="form-control" id="inputEmail1" aria-describedby="emailHelp">
+                        </div>
+                      </div>
+                    </div>
+                    <div class="mb-3">
+                          <label for="message" class="form-label">Message</label>
+                          <textarea type="text" class="form-control" rows="3" id="message" aria-describedby="emailHelp"></textarea>
+                    </div>
+                    <div class="mb-3">
+                      <button type="submit" class="btn btn-primary w-100">Submit</button>
+                    </div>
+                  </form>
+              </div>
+            </div>
+          </div>
+        </section>
+          
+
+    </main>
+
+    <footer class="border-top">
+      <div class="container py-5">
+          <div class="row gy-4 align-items-center">
+              <div class="col-12 col-md-3">
+                  <a class="navbar-brand text-dark text-uppercase fw-bold" href="#">
+                      <span class="bg-primary bg-gradient p-1 rounded-3 text-light">Green</span> Mind
+                  </a>
+              </div>
+              <div class="col-12 col-md-6 text-md-center">
+                  <p> © Copyright 2022 Green Mind - All Rights Reserved </p>
+              </div>
+
+              <div class="col-12 col-md-3 text-md-end">
+                  <ul class="list-inline mb-0">
+                          <li class="list-inline-item">
+                            <a href="#" class="text-decoration-none text-dark" data-bs-toggle="tooltip" title="LinkedIn"><i class="fa fa-linkedin-square fa-2x"></i></a>
+                          </li>
+                          <li class="list-inline-item">
+                            <a href="#" class="text-decoration-none text-dark" data-bs-toggle="tooltip" title="Facebook"><i class="fab fa-facebook-square fa-2x"></i></a>
+                          </li>
+                          <li class="list-inline-item">
+                            <a href="#" class="text-decoration-none text-dark" data-bs-toggle="tooltip" title="WhatsAppr"><i class="fab fa-whatsapp-square fa-2x"></i></a>
+                          </li>
+                  </ul>
+              </div>
+          </div>
+      </div>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+      <script>
+        var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+        var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+          return new bootstrap.Tooltip(tooltipTriggerEl)
+        })
+      </script>
+  </footer>
+  </body>
