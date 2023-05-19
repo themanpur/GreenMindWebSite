@@ -1,3 +1,13 @@
 @import "variables_overrides.scss"; 
 
 @import "../node_modules/bootstrap/scss/bootstrap.scss";
+
+.text-blue-500{
+    color: $blue-500;
+  }
+  .text-blue-300{
+    color: $blue-600;
+  }
+  .text-teal{
+    color: $teal-600;
+  }
